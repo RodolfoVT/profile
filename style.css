@@ -1,0 +1,77 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: rgb(230,230,240);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(125,125,125);
+  line-height: 120%;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 0;
+  color: rgb(90,90,90);
+  font-size: 32px;
+}
+
+h2 {
+  font-family: Arial, sans-serif,
+}
+
+img {
+  opacity: 0.9;
+  width: 30%;
+  border-radius: 50%;
+}
+
+a:hover {
+  color: red;
+}
+
+.btn-blue {
+  background-color: #2688D2;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 7px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #144567;
+  color: white;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 3px rgb(240,240,240);
+  margin: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
