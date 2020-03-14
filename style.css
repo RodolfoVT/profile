@@ -57,6 +57,20 @@ a:hover {
   margin: 20px;
 }
 
+.list-inline {
+  list-inline: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social {
+  font-size: 28px;
+  color: rgb(220,220,220);
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
